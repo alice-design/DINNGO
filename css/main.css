@@ -187,7 +187,7 @@ iframe {
   background: -o-linear-gradient(bottom, #036ad8, #133364);
   background: -moz-linear-gradient(bottom, #036ad8, #133364);
   background: linear-gradient(bottom, #036ad8, #133364);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .wrap-login100 {
@@ -343,7 +343,7 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #333333;
+  background: #007cff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -373,24 +373,26 @@ iframe {
   top: 0;
   left: 0;
   background: #036ad8;
-  background: -webkit-linear-gradient(left, #036ad8, #133364);
+  /* background: -webkit-linear-gradient(left, #036ad8, #133364);
   background: -o-linear-gradient(left, #036ad8, #133364);
   background: -moz-linear-gradient(left, #036ad8, #133364);
-  background: linear-gradient(left, #036ad8, #133364);
-  -webkit-transition: all 0.4s;
+  background: linear-gradient(left, #036ad8, #133364); */
+  /* -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  opacity: 0;
+  opacity: 0; */
 }
 
 .login100-form-btn:hover {
-  background: transparent;
+  /* background: transparent; */
   color: #fff;
+  background-color: red;
 }
 
 .login100-form-btn:hover:before {
   opacity: 1;
+  background-color: #1791FE;
 }
 
 /*------------------------------------------------------------------
