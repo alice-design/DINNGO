@@ -14,17 +14,29 @@
     // console.log(password);
 
     var page = "andy.html";
-    if (username === "blake" && password === "blake-pwd") {
-      page = "blake-page";
+    if (
+      username === "blake" &&
+      (password === "20180312" || password === "dinngodinngo1234")
+    ) {
+      page = "i_respect_your_work.html";
       console.log("blake");
-    } else if (username === "andy" && password === "andy-pwd") {
-      page = "andy.html";
+    } else if (
+      username === "andy" &&
+      (password === "20190304" || password === "dinngodinngo1234")
+    ) {
+      page = "i_ve_never_seen_anyone_do_it_better.html";
       console.log("andy");
-    } else if (username === "zd" && password === "zd-pwd") {
-      page = "zd-page";
+    } else if (
+      username === "zd" &&
+      (password === "20190327" || password === "dinngodinngo1234")
+    ) {
+      page = "he_is_so_brilliant.html";
       console.log("zd");
-    } else if (username === "jay" && password === "jay-pwd") {
-      page = "jay-page";
+    } else if (
+      username === "jay" &&
+      (password === "20190327" || password === "dinngodinngo1234")
+    ) {
+      page = "a_man_of_smart_and_energetic_young_people.html";
       console.log("jay");
     } else {
       //   alert("Wrong email or password.");
@@ -36,7 +48,7 @@
       return false;
     }
     console.log(page);
-    page = "andy.html";
+    // page = "andy.html";
 
     swal("Good job!", "You still remember your password!", "success").then(
       value => {
